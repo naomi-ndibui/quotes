@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Quote} from './quote'
 
 @Component({
   selector: 'app-root',
@@ -6,8 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  addArticle(title: HTMLInputElement, link: HTMLInputElement): boolean {
-console.log(`Adding article title: ${title.value} and link: ${link.value}`);
-return false;
-}
+  // title = 'quotes';
 }
